@@ -58,11 +58,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>4.0.9</version>
-		</dependency>
-		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
 			<version>3.17</version>
@@ -100,7 +95,7 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>cucumber.testng.xml</suiteXmlFile>
+						<suiteXmlFile>Cucumbertestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -128,5 +123,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

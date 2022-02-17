@@ -2,8 +2,8 @@
 Feature: Login Function Test
   I want to use this template for my feature file
 
-@tc001_to_tc005
-Scenario: As an Orbitz user, I can successfully login with valid credentials
+  @tc001_to_tc005
+  Scenario: As an Orbitz user, I can successfully login with valid credentials
     Given I open the browser
     And Go to the Application URL
     When I put valid username

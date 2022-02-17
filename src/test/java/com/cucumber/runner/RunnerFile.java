@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 				
 		},
 		
-		features = {"src/main/resources/OrbitzLogin.feature"}, //path
+		features = {"src/test/resources/OrbitzLogin.feature"}, //path
 		glue = {"com.cucumber.stepdef"} //stepdef package name
 		
 		
